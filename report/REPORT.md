@@ -81,12 +81,12 @@ Chạy `ChunkingStrategyComparator().compare()` trên tài liệu `luat_ai_clean
 
 | Tài liệu | Strategy | Chunk Count | Avg Length | Preserves Context? |
 |-----------|----------|-------------|------------|-------------------|
-| Dự Thảo | RecursiveChunker (recursive) | 171 | 59.56 | Excellent (Rất hội tụ). |
-| Dự Thảo | DocumentStructureChunker  (document_structure) | 71 | ~409 | Tốt, giữ được đơn vị điều/mục và nội dung pháp lý đầy đủ hơn. |
-| Dự Thảo | Custom Strategy (Logic Document Parse nguyên cấu trúc + FixedSizeChunker) | 89 | ~682 | Bảo toàn ngữ cảnh tốt. |
-| Dự Thảo | Sematic chunking (semantic_chunking) | 89 | ~682 | Bảo toàn ngữ cảnh tốt. |
-| Dự Thảo | Document-Structure + Overlap (Hybrid) (document_structure_overlap) | 100 | ~190 | Tốt, giữ được đơn vị điều/mục và nội dung pháp lý đầy đủ hơn. |
-| Dự Thảo | Fixed-Size (fixed_size) | 121 | ~496 | Trung bình (câu có thể bị cắt ngang nếu xui xẻo ráp nối không đều ở phần biên) |
+| Luật AI | RecursiveChunker (recursive) | 171 | 59.56 | Excellent (Rất hội tụ). |
+| Luật AI | DocumentStructureChunker  (document_structure) | 71 | ~409 | Tốt, giữ được đơn vị điều/mục và nội dung pháp lý đầy đủ hơn. |
+| Luật AI | Custom Strategy (Logic Document Parse nguyên cấu trúc + FixedSizeChunker) | 89 | ~682 | Bảo toàn ngữ cảnh tốt. |
+| Luật AI | Sematic chunking (semantic_chunking) | 89 | ~682 | Bảo toàn ngữ cảnh tốt. |
+| Luật AI | Document-Structure + Overlap (Hybrid) (document_structure_overlap) | 100 | ~190 | Tốt, giữ được đơn vị điều/mục và nội dung pháp lý đầy đủ hơn. |
+| Luật AI | Fixed-Size (fixed_size) | 121 | ~496 | Trung bình (câu có thể bị cắt ngang nếu xui xẻo ráp nối không đều ở phần biên) |
 
 ### Strategy Của Tôi
 
